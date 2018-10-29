@@ -1,0 +1,28 @@
+.diagram {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .diagram {
+    width: 80px;
+  }
+}
+
+@media (max-width: 640px) {
+  .diagram {
+    width: 60px;
+  }
+}
+
+@media (max-width: 580px) {
+  .diagram {
+    width: 80px;
+  }
+}
+
+@media (max-width: 360px) {
+  .diagram {
+    width: 60px;
+  }
+}

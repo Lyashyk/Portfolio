@@ -1,0 +1,21 @@
+.diagramGallery {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.diagramGallery-description {
+  color: #81868e;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 1.3px;
+  font-family: "Ukrainian Diaria", sans-serif;
+  font-weight: 200;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .diagramGallery-description {
+    font-size: 16px;
+  }
+}
