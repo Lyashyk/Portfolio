@@ -217,3 +217,31 @@
     font-size: 12px;
   }
 }
+
+.project-visualLink {
+  display: inline-block;
+  width: 100px;
+  padding: 8px 0;
+  background-color: #047378;
+  color: #fff;
+  border: solid 2px #047378;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+
+.project-visualLink:hover {
+  color: #047378;
+  border: solid 2px #047378;
+  background-color: #fff;
+}
+
+.project-visualLink:focus {
+  box-shadow: 0 0 8px 0 #047378;
+}
+
+.project-visualLink:active {
+  background-color: #19bd9a;
+}
