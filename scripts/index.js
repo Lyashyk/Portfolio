@@ -9,7 +9,8 @@ $(".owl-carousel").owlCarousel({
   nav: true,
   loop: true,
   autoplay: true,
-  autoplayHoverPause: true
+  autoplayHoverPause: true,
+  lazyLoad: false
 });
 
 $(".circlestat").circliful({
